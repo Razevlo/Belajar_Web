@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    /* Jarak antar elemen */
+
+}
+
+.container>div {
+    border: 2px solid #0d5fbb;
+    border-radius: 5px;
+    background-color: #15d6e4;
+    padding: 1em;
+    color: #230fd9;
+}
+
+.container {
+    display: grid;
+    /* Kolom pertama & ketiga sama, tengah lebih besar */
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+
+.container>div {
+    border: 2px solid #512b03;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1em;
+    color: #d9480f;
+}

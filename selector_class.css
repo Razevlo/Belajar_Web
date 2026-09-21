@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    height: 15px;
+    background-color: rgb(62, 216, 152);
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #599d56;
+}
+.teks-biru {
+    color: rgb(25, 37, 205);
+}
+.tebal{
+    font-weight: bold;
+}

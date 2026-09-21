@@ -1,0 +1,13 @@
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+button {
+    background-color: rgb(26, 211, 140);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
